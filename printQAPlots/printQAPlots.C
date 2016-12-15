@@ -138,7 +138,7 @@ int printQAPlots(const std::string input_ppData_condorDir , const std::string in
   
   // just for opening the pdf
   TCanvas *temp_canvCutOpen = new TCanvas("temp-c", "temp-c", 800, 600);
-  temp_canvOpen->Print( open_theJetIDPDFFileName.c_str() );  
+  temp_canvCutOpen->Print( open_theJetIDPDFFileName.c_str() );  
   temp_canvCutOpen->Close();
   
   
