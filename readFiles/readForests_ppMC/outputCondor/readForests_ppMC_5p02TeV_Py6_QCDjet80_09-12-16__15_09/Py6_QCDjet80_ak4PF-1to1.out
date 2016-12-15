@@ -1,0 +1,79 @@
+
+----------------------------------------------------
+Job started on Mon Sep 12 15:12:03 EDT 2016 at WN: t2bat0340.cmsaf.mit.edu 
+Job is running on Linux t2bat0340.cmsaf.mit.edu 2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 20:37:17 CST 2013 x86_64 x86_64 x86_64 GNU/Linux
+----------------------------------------------------
+
+free disk space is...
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda3              20G  3.8G   15G  21% /
+tmpfs                  32G     0   32G   0% /dev/shm
+/dev/sda1              97M   32M   61M  35% /boot
+/dev/sda4             416G   60G  356G  15% /export/data1
+/dev/sdb1             3.6T  2.8T  865G  77% /export/00b
+/dev/sdc1             3.6T  2.7T  914G  76% /export/00c
+/dev/sdd1             3.6T  2.8T  889G  76% /export/00d
+/dev/sde1             3.6T  2.8T  903G  76% /export/00e
+/dev/sdh1             3.6T  2.8T  878G  77% /export/00f
+/dev/sdf1             3.6T  2.8T  892G  76% /export/00g
+/dev/sdg1             3.6T  2.8T  881G  76% /export/00h
+/dev/sdj1             3.6T  2.8T  883G  76% /export/00i
+/dev/sdi1             3.6T  2.8T  886G  76% /export/00j
+/dev/sdk1             3.6T  2.8T  860G  77% /export/00k
+/dev/sdl1             3.6T  2.8T  891G  76% /export/00l
+fuse_dfs              6.5P  5.2P  1.4P  80% /mnt/hadoop
+cvmfs2                 98G   59G   40G  60% /cvmfs/cms.cern.ch
+t2srv0004:/export/db  135G  187M  135G   1% /net/t2srv0004/db
+cvmfs2                 98G   59G   40G  60% /cvmfs/cvmfs.cmsaf.mit.edu
+
+root directory is...
+/cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.12/
+
+working directory is...
+/export/data1/condor/execute/dir_49068
+
+contents before job processing is...
+total 136
+drwx------  2 obaron obaron  4096 Sep 12 15:12 .
+drwxr-xr-x 20 condor root    4096 Sep 12 15:11 ..
+-rwx------  1 obaron obaron    48 Sep 12 15:11 .chirp.config
+-rw-r--r--  1 condor condor 37381 Sep 12 15:11 .job.ad
+-rw-r--r--  1 condor condor  6477 Sep 12 15:11 .machine.ad
+-rw-rw-r--  1 obaron obaron  2684 Sep 12 15:12 5p02TeV_Py6_QCDjet80_forests.txt
+-rw-r--r--  1 obaron obaron     0 Sep 12 15:12 _condor_stderr
+-rw-r--r--  1 obaron obaron  1652 Sep 12 15:12 _condor_stdout
+-rwxr-xr-x  1 obaron obaron   700 Sep 12 15:12 condor_exec.exe
+-rwxrwxr-x  1 obaron obaron 62955 Sep 12 15:12 readForests_ppMC.exe
+
+Processing...
+
+///////////////////
+reading files 1 to 1
+radius =  4
+jetType =  PF
+///////////////////
+
+opening filelist: 5p02TeV_Py6_QCDjet80_forests.txt
+adding file #1, to each TChain in array
+opening output file Py6_QCDjet80_ak4PF-1to1.root
+reading 0 events
+
+
+/// Job Event-Loop Summary ///
+
+Total Num of Events in file(s) opened       = 0
+Total Num of Events read from those file(s) = 0
+
+/// Job Jet-Loop Summary ///
+
+Total Num of Jets read from good events                          = 0
+Total Num of Jets read from good events post kinCut              = 0
+Total Num of Jets read from good events post kinCut AND JetIDCut = 0
+
+writing output file...
+
+readForests_ppMC finished.
+CPU time (min)  = 0.0346667
+Real time (min) = 0.187326
+rStatus=0
+Job done!

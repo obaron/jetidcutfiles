@@ -1,0 +1,75 @@
+
+----------------------------------------------------
+Job started on Mon Sep 12 15:12:13 EDT 2016 at WN: t2bat0350.cmsaf.mit.edu 
+Job is running on Linux t2bat0350.cmsaf.mit.edu 2.6.32-573.8.1.el6.x86_64 #1 SMP Tue Nov 10 05:29:11 CST 2015 x86_64 x86_64 x86_64 GNU/Linux
+----------------------------------------------------
+
+free disk space is...
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda3              63G  2.4G   58G   4% /
+tmpfs                  48G     0   48G   0% /dev/shm
+/dev/sda1             240M   41M  187M  18% /boot
+/dev/sda5             728G   81G  647G  12% /export/data1
+fuse_dfs              6.5P  5.2P  1.4P  80% /mnt/hadoop
+/dev/sdb1             3.6T  3.1T  522G  86% /export/00b
+/dev/sdc1             3.6T  3.1T  519G  86% /export/00c
+/dev/sdd1             3.6T  2.8T  881G  76% /export/00d
+/dev/sde1             3.6T  2.7T  973G  74% /export/00e
+/dev/sdf1             3.6T  2.7T  959G  74% /export/00f
+/dev/sdg1             3.6T  2.7T  966G  74% /export/00g
+cvmfs2                 98G   80G   19G  82% /cvmfs/cms.cern.ch
+t2srv0004:/export/db  135G  187M  135G   1% /net/t2srv0004/db
+cvmfs2                 98G   80G   19G  82% /cvmfs/cvmfs.cmsaf.mit.edu
+cvmfs2                 98G   80G   19G  82% /cvmfs/cms-ib.cern.ch
+
+root directory is...
+/cvmfs/cms.cern.ch/slc6_amd64_gcc491/lcg/root/6.02.12/
+
+working directory is...
+/export/data1/condor/execute/dir_77338
+
+contents before job processing is...
+total 136
+drwx------  2 obaron obaron  4096 Sep 12 15:12 .
+drwxr-xr-x 16 condor root    4096 Sep 12 15:11 ..
+-rwx------  1 obaron obaron    48 Sep 12 15:11 .chirp.config
+-rw-r--r--  1 condor condor 37381 Sep 12 15:11 .job.ad
+-rw-r--r--  1 condor condor  6483 Sep 12 15:11 .machine.ad
+-rw-rw-r--  1 obaron obaron  2684 Sep 12 15:12 5p02TeV_Py6_QCDjet80_forests.txt
+-rw-r--r--  1 obaron obaron     0 Sep 12 15:12 _condor_stderr
+-rw-r--r--  1 obaron obaron  1442 Sep 12 15:12 _condor_stdout
+-rwxr-xr-x  1 obaron obaron   700 Sep 12 15:12 condor_exec.exe
+-rwxrwxr-x  1 obaron obaron 62955 Sep 12 15:12 readForests_ppMC.exe
+
+Processing...
+
+///////////////////
+reading files 2 to 2
+radius =  4
+jetType =  PF
+///////////////////
+
+opening filelist: 5p02TeV_Py6_QCDjet80_forests.txt
+adding file #2, to each TChain in array
+opening output file Py6_QCDjet80_ak4PF-2to2.root
+reading 0 events
+
+
+/// Job Event-Loop Summary ///
+
+Total Num of Events in file(s) opened       = 0
+Total Num of Events read from those file(s) = 0
+
+/// Job Jet-Loop Summary ///
+
+Total Num of Jets read from good events                          = 0
+Total Num of Jets read from good events post kinCut              = 0
+Total Num of Jets read from good events post kinCut AND JetIDCut = 0
+
+writing output file...
+
+readForests_ppMC finished.
+CPU time (min)  = 0.0898333
+Real time (min) = 0.162596
+rStatus=0
+Job done!

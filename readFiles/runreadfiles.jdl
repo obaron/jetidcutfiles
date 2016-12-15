@@ -1,0 +1,10 @@
+universe = vanilla
+Executable = condorSubmit_readForests_ppMC.sh
+should_transfer_files = NO
+notification = never
+Output = /net/hisrv0001/home/obaron/CMSSW_7_5_8/src/5p02TeV_ppJetAnalysis/readFiles/readForests_ppMC/logs/simple_$(cluster)_$(process).stdout
+Error  = /net/hisrv0001/home/obaron/CMSSW_7_5_8/src/5p02TeV_ppJetAnalysis/readFiles/readForests_ppMC/logs/simple_$(cluster)_$(process).stdout
+Log    = /net/hisrv0001/home/obaron/CMSSW_7_5_8/src/5p02TeV_ppJetAnalysis/readFiles/readForests_ppMC/logs/simple_$(cluster)_$(process).condor
+
+Arguments = 
+Queue 1

@@ -1,0 +1,26 @@
+000 (990508.000.000) 09/08 15:11:10 Job submitted from host: <18.12.1.74:43431?addrs=18.12.1.74-43431>
+...
+007 (990508.000.000) 09/08 15:12:09 Shadow exception!
+	Error from slot1@t2bat0261.cmsaf.mit.edu: Failed to open '/net/hisrv0001/home/obaron/CMSSW_7_5_8/src/5p02TeV_ppJetAnalysis/readFiles/readForests_ppMC/logs/simple_990508_0.stdout' as standard output: No such file or directory (errno 2)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (990508.000.000) 09/08 15:12:09 Job was held.
+	Error from slot1@t2bat0261.cmsaf.mit.edu: Failed to open '/net/hisrv0001/home/obaron/CMSSW_7_5_8/src/5p02TeV_ppJetAnalysis/readFiles/readForests_ppMC/logs/simple_990508_0.stdout' as standard output: No such file or directory (errno 2)
+	Code 7 Subcode 2
+...
+013 (990508.000.000) 09/09 12:36:54 Job was released.
+	via condor_release (by user obaron)
+...
+007 (990508.000.000) 09/09 12:38:04 Shadow exception!
+	Error from slot1@t2bat0003.cmsaf.mit.edu: Failed to open '/net/hisrv0001/home/obaron/CMSSW_7_5_8/src/5p02TeV_ppJetAnalysis/readFiles/readForests_ppMC/logs/simple_990508_0.stdout' as standard output: No such file or directory (errno 2)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (990508.000.000) 09/09 12:38:05 Job was held.
+	Error from slot1@t2bat0003.cmsaf.mit.edu: Failed to open '/net/hisrv0001/home/obaron/CMSSW_7_5_8/src/5p02TeV_ppJetAnalysis/readFiles/readForests_ppMC/logs/simple_990508_0.stdout' as standard output: No such file or directory (errno 2)
+	Code 7 Subcode 2
+...
+009 (990508.000.000) 09/09 13:05:45 Job was aborted by the user.
+	via condor_rm (by user obaron)
+...

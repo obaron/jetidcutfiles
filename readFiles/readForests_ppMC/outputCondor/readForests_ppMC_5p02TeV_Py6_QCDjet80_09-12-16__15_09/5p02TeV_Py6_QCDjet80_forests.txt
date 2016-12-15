@@ -1,0 +1,17 @@
+/mnt/hadoop/cms/store/himc/HINppWinter16DR/Pythia6_Dijet80_pp502/AODSIM/75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/00000/6E954669-740E-E611-9F5C-0025905BA736.root
+/mnt/hadoop/cms/store/himc/HINppWinter16DR/Pythia6_Dijet80_pp502/AODSIM/75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/30000/042825D7-EF0E-E611-8C2F-02163E01203B.root
+/mnt/hadoop/cms/store/himc/HINppWinter16DR/Pythia6_Dijet80_pp502/AODSIM/75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/30000/1AE52C73-3D0E-E611-87DD-02163E0145EC.root
+/mnt/hadoop/cms/store/himc/HINppWinter16DR/Pythia6_Dijet80_pp502/AODSIM/75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/30000/30969C6D-1F0F-E611-9EEF-0025905C42A6.root
+/mnt/hadoop/cms/store/himc/HINppWinter16DR/Pythia6_Dijet80_pp502/AODSIM/75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/30000/34181A3E-3D0E-E611-9002-02163E0141F9.root
+/mnt/hadoop/cms/store/himc/HINppWinter16DR/Pythia6_Dijet80_pp502/AODSIM/75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/30000/D8538943-3E0E-E611-BC5B-02163E01475A.root
+/mnt/hadoop/cms/store/himc/HINppWinter16DR/Pythia6_Dijet80_pp502/AODSIM/75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/50000/0EB77382-040D-E611-9A34-0CC47A1DF5FA.root
+/mnt/hadoop/cms/store/himc/HINppWinter16DR/Pythia6_Dijet80_pp502/AODSIM/75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/50000/3AE39D9D-7C10-E611-AB56-0025904CF712.root
+/mnt/hadoop/cms/store/himc/HINppWinter16DR/Pythia6_Dijet80_pp502/AODSIM/75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/50000/467686DC-D60D-E611-BFD9-1CB72C1B65D4.root
+/mnt/hadoop/cms/store/himc/HINppWinter16DR/Pythia6_Dijet80_pp502/AODSIM/75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/50000/5E4FE5B6-8110-E611-8890-0025905C4262.root
+/mnt/hadoop/cms/store/himc/HINppWinter16DR/Pythia6_Dijet80_pp502/AODSIM/75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/50000/6E67E801-5210-E611-880B-0025905C431A.root
+/mnt/hadoop/cms/store/himc/HINppWinter16DR/Pythia6_Dijet80_pp502/AODSIM/75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/50000/8A022259-290F-E611-BE1D-0025904C67A6.root
+/mnt/hadoop/cms/store/himc/HINppWinter16DR/Pythia6_Dijet80_pp502/AODSIM/75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/50000/9E6D36D1-C30E-E611-A5B9-0025905C2CD0.root
+/mnt/hadoop/cms/store/himc/HINppWinter16DR/Pythia6_Dijet80_pp502/AODSIM/75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/50000/DA97E8E4-E510-E611-90CB-0025905C4264.root
+/mnt/hadoop/cms/store/himc/HINppWinter16DR/Pythia6_Dijet80_pp502/AODSIM/75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/50000/E029AD5F-290F-E611-84C5-0025905D1E00.root
+/mnt/hadoop/cms/store/himc/HINppWinter16DR/Pythia6_Dijet80_pp502/AODSIM/75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/50000/F6F86676-2D0F-E611-BF66-0025905C96E8.root
+/mnt/hadoop/cms/store/himc/HINppWinter16DR/Pythia6_Dijet80_pp502/AODSIM/75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/70000/2AAF277B-1E0F-E611-946A-0025905C96EA.root

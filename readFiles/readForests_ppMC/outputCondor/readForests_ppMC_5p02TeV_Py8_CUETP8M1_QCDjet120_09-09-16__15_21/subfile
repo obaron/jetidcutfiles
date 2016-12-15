@@ -1,0 +1,19 @@
+
+Universe       = vanilla
+Environment = "HOSTNAME=hidsk0001.cmsaf.mit.edu"
+Executable     = condorRun_readForests_ppMC.sh
++AccountingGroup = "group_cmshi.ilaflott"
+Arguments      = 3 3 5p02TeV_Py8_CUETP8M1_QCDjet120_forests.txt Py8_CUETP8M1_QCDjet120_ak4PF-3to3.root 4 PF 0
+Input          = /dev/null
+Error          = /net/hisrv0001/home/obaron/CMSSW_7_5_8/src/5p02TeV_ppJetAnalysis/readFiles/readForests_ppMC/outputCondor/readForests_ppMC_5p02TeV_Py8_CUETP8M1_QCDjet120_09-09-16__15_21/Py8_CUETP8M1_QCDjet120_ak4PF-3to3.err
+Output         = /net/hisrv0001/home/obaron/CMSSW_7_5_8/src/5p02TeV_ppJetAnalysis/readFiles/readForests_ppMC/outputCondor/readForests_ppMC_5p02TeV_Py8_CUETP8M1_QCDjet120_09-09-16__15_21/Py8_CUETP8M1_QCDjet120_ak4PF-3to3.out
+Log            = /net/hisrv0001/home/obaron/CMSSW_7_5_8/src/5p02TeV_ppJetAnalysis/readFiles/readForests_ppMC/outputCondor/readForests_ppMC_5p02TeV_Py8_CUETP8M1_QCDjet120_09-09-16__15_21/Py8_CUETP8M1_QCDjet120_ak4PF-3to3.log
+# get the environment (path, etc.)
+GetEnv         = True
+# prefer to run on fast, 64 bit computers
+Rank           = kflops
+Requirements   = Arch == "X86_64"
+should_transfer_files   = YES
+transfer_input_files = 5p02TeV_Py8_CUETP8M1_QCDjet120_forests.txt,readForests_ppMC.exe
+when_to_transfer_output = ON_EXIT
+Queue
