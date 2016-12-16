@@ -893,10 +893,10 @@ int printQAPlots(const std::string input_ppData_condorDir , const std::string in
 //DRAW JETID CUT HISTOS
 	temp_canvJetCutRat->cd();
 	
-	TH1F* theCutRatio=(TH1F*)theDataJetQAHist->Clone("dataJetHistClone4Ratio2");//clone the original histo into a new histo for the ratio
+	TH1F* theCutRatio=(TH1F*)theDataJetcutQAHist->Clone("dataJetHistClone4Ratio2");//clone the original histo into a new histo for the ratio
 	
-	std::string h_XAx_Title2=var_xAx_Titles[j], h_YAx_Title2="no JetID cuts/JetID cuts";
-	std::string h_Title2   ="JetQA, no JetID cuts/JetID cuts";//, "+var[j];
+	std::string h_XAx_Title2=var_xAx_Titles[j], h_YAx_Title2="JetID cuts/ no JetID cuts";
+	std::string h_Title2   ="JetQA, JetID cuts/ no JetID cuts";//, "+var[j];
 	if(doJetIDPlots)h_Title2+="";      
 	
 	theCutRatio->SetTitle (    h_Title2.c_str() );
@@ -909,7 +909,7 @@ int printQAPlots(const std::string input_ppData_condorDir , const std::string in
 	theCutRatio->SetAxisRange(jetQAxmin[j],jetQAxmax[j],"X");	
 	
 	std::cout<<"Dividing Jet-ID Cut Histos"<<std::endl;
-	theCutRatio->Divide(theDataJetcutQAHist);
+	theCutRatio->Divide(theDataJetQAHist);
 	theCutRatio->Draw();
 /*
 	TLine* lineAtOne          = new TLine(jetQAxmin[j],1.0,jetQAxmax[j],1.0); 
