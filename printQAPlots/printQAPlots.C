@@ -284,6 +284,11 @@ int printQAPlots(const std::string input_ppData_condorDir , const std::string in
 	theDataEvtQAHist->SetMarkerColor( theDataOverlayMarkerColor );
 	theDataEvtQAHist->SetLineColor( theDataOverlayLineColor );
 	
+	
+	
+	
+	
+	
 	TH1F* theMCEvtQAHist= (TH1F*)finMC->Get( inHistName.c_str() );
 
 	theMCEvtQAHist->Scale( 1./theMCEvtQAHist->GetBinWidth(0) );
@@ -474,7 +479,7 @@ int printQAPlots(const std::string input_ppData_condorDir , const std::string in
 	theMCEvtQAHist->Scale( theDataEvtQAHist->Integral()/theMCEvtQAHist->Integral() );
 	
 	// title+axes
-	std::string h_Title   ="EvtQA, JetID/noJetID";
+	std::string h_Title   ="EvtQA, Data/MC";
 	std::string h_XAx_Title="v_{z}^{evt} (cm)", h_YAx_Title="Data/MC";
 	theDataEvtQAHist->SetTitle (    h_Title.c_str() );
 	theDataEvtQAHist->SetXTitle( h_XAx_Title.c_str() );
@@ -486,7 +491,7 @@ int printQAPlots(const std::string input_ppData_condorDir , const std::string in
 	theRatio->Draw();
 	
 	//Adding plot to compare jetID and non-jetID spectrum 
-	
+	//NOTE NOTE NOTE do I need this?
 	
 	
 	
@@ -549,7 +554,7 @@ int printQAPlots(const std::string input_ppData_condorDir , const std::string in
 
       if(debugMode)std::cout<<" opening input Data "<<inHistNamenocut<<std::endl<<std::endl;      
       TH1F* theDataJetQAHist= (TH1F*)
-	( (TH1*)finData->Get(inHistName.c_str()) )
+	( (TH1*)finData->Get(inHistNamenocut.c_str()) )//change this back if needed
 	->TH1::Rebin(var_xAx_reBin[j]);	
       theDataJetQAHist->Print("base"); 
       std::cout<<std::endl;
@@ -592,8 +597,6 @@ int printQAPlots(const std::string input_ppData_condorDir , const std::string in
 	->TH1::Rebin(var_xAx_reBin[j]);	
       theDataJetcutQAHist->Print("base");
       std::cout<<std::endl;  
-
-
 	  
 	  theDataJetcutQAHist->Scale( 1./theDataJetcutQAHist->GetBinWidth(1) );
       theDataJetcutQAHist->Scale( 1./theLumi);
@@ -627,7 +630,7 @@ int printQAPlots(const std::string input_ppData_condorDir , const std::string in
 	
 	theDataJetQAHist->SetAxisRange(jetQAxmin[j],jetQAxmax[j],"X"); 
 	theMCJetQAHist->SetAxisRange(jetQAxmin[j],jetQAxmax[j],"X"); 
-	
+	theDataJetcutQAHist->SetAxisRange(jetQAxmin[j],jetQAxmax[j],"X"); 
 	// variable specific draw orders, canv, etc.
 	if(var[j]=="jtpt"||var[j]=="rawpt") { temp_canvJet->cd();
 
@@ -890,15 +893,15 @@ int printQAPlots(const std::string input_ppData_condorDir , const std::string in
 //DRAW JETID CUT HISTOS
 	temp_canvJetCutRat->cd();
 	
-	TH1F* theCutRatio=(TH1F*)theDataJetQAHist->Clone("dataJetHistClone4Ratio2");
+	TH1F* theCutRatio=(TH1F*)theDataJetQAHist->Clone("dataJetHistClone4Ratio2");//clone the original histo into a new histo for the ratio
 	
-	std::string h_XAx_Title2=var_xAx_Titles[j], h_YAx_Title2="JetID/no JetID";
-	std::string h_Title2   ="JetQA, JetID/noJetID";//, "+var[j];
+	std::string h_XAx_Title2=var_xAx_Titles[j], h_YAx_Title2="no JetID cuts/JetID cuts";
+	std::string h_Title2   ="JetQA, no JetID cuts/JetID cuts";//, "+var[j];
 	if(doJetIDPlots)h_Title2+="";      
 	
-	theCutRatio->SetTitle (    h_Title.c_str() );
-	theCutRatio->SetXTitle( h_XAx_Title.c_str() );
-	theCutRatio->SetYTitle( h_YAx_Title.c_str() );
+	theCutRatio->SetTitle (    h_Title2.c_str() );
+	theCutRatio->SetXTitle( h_XAx_Title2.c_str() );
+	theCutRatio->SetYTitle( h_YAx_Title2.c_str() );
 	theCutRatio->SetMarkerColor( kRed );
 	theCutRatio->SetLineColor( theRatioLineColor );
 	
@@ -1330,6 +1333,12 @@ int printQAPlots(const std::string input_ppData_condorDir , const std::string in
   TCanvas *temp_canvClose = new TCanvas("tempClose", "tempClose", 1200, 600);
   temp_canvClose->Print( close_thePDFFileName.c_str() );  
   temp_canvClose->Close();    
+
+
+   if(debugMode)std::cout<<std::endl<<"closing the PDF file"<<std::endl;
+  TCanvas *temp_cutcanvClose = new TCanvas("cuttempClose", "cuttempClose", 1200, 600);
+  temp_cutcanvClose->Print( close_theJetIDPDFFileName.c_str() );  
+  temp_cutcanvClose->Close();    
   
 
   if(debugMode)std::cout<<std::endl<<"closing input files"<<std::endl;

@@ -83,7 +83,7 @@ creating temporary canvas for printing JetID ratio Jet plots...
  var =jtpt
  opening input Data hJetQA_0wJetID_jtpt
 
-TH1.Print Name  = hJetQA_1wJetID_jtpt, Entries= 119794911, Total sum= 1.01281e+09
+TH1.Print Name  = hJetQA_0wJetID_jtpt, Entries= 123057676, Total sum= 1.065e+09
           Title = 
           NbinsX= 100, xmin= 0, xmax=500
 
@@ -95,9 +95,9 @@ TH1.Print Name  = hJetQA_1wJetID_jtpt, Entries= 41701885, Total sum= 0.239948
 
  opening input Data w/ cuthJetQA_1wJetID_jtpt
 
-TH1.Print Name  = hJetQA_1wJetID_jtpt, Entries= 119794911, Total sum= 2.03039
+TH1.Print Name  = hJetQA_1wJetID_jtpt, Entries= 119794911, Total sum= 1.01281e+09
           Title = 
-          NbinsX= 20, xmin= 0, xmax=500
+          NbinsX= 100, xmin= 0, xmax=500
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -107,7 +107,7 @@ Printing Jet-ID Cut Histos
  var =rawpt
  opening input Data hJetQA_0wJetID_rawpt
 
-TH1.Print Name  = hJetQA_1wJetID_rawpt, Entries= 119794911, Total sum= 1.01281e+09
+TH1.Print Name  = hJetQA_0wJetID_rawpt, Entries= 123057676, Total sum= 1.065e+09
           Title = 
           NbinsX= 100, xmin= 0, xmax=500
 
@@ -119,9 +119,9 @@ TH1.Print Name  = hJetQA_1wJetID_rawpt, Entries= 41701885, Total sum= 0.239948
 
  opening input Data w/ cuthJetQA_1wJetID_rawpt
 
-TH1.Print Name  = hJetQA_1wJetID_rawpt, Entries= 119794911, Total sum= 2.03039
+TH1.Print Name  = hJetQA_1wJetID_rawpt, Entries= 119794911, Total sum= 1.01281e+09
           Title = 
-          NbinsX= 20, xmin= 0, xmax=500
+          NbinsX= 100, xmin= 0, xmax=500
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -131,7 +131,7 @@ Printing Jet-ID Cut Histos
  var =jteta
  opening input Data hJetQA_0wJetID_jteta
 
-TH1.Print Name  = hJetQA_1wJetID_jteta, Entries= 47393115, Total sum= 1.08956e+08
+TH1.Print Name  = hJetQA_0wJetID_jteta, Entries= 47902995, Total sum= 1.0977e+08
           Title = 
           NbinsX= 50, xmin= -5, xmax=5
 
@@ -143,9 +143,9 @@ TH1.Print Name  = hJetQA_1wJetID_jteta, Entries= 26426383, Total sum= 0.00485995
 
  opening input Data w/ cuthJetQA_1wJetID_jteta
 
-TH1.Print Name  = hJetQA_1wJetID_jteta, Entries= 47393115, Total sum= 5.46064
+TH1.Print Name  = hJetQA_1wJetID_jteta, Entries= 47393115, Total sum= 1.08956e+08
           Title = 
-          NbinsX= 25, xmin= -5, xmax=5
+          NbinsX= 50, xmin= -5, xmax=5
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -155,7 +155,7 @@ Printing Jet-ID Cut Histos
  var =jtphi
  opening input Data hJetQA_0wJetID_jtphi
 
-TH1.Print Name  = hJetQA_1wJetID_jtphi, Entries= 47393115, Total sum= 1.08956e+08
+TH1.Print Name  = hJetQA_0wJetID_jtphi, Entries= 47902995, Total sum= 1.0977e+08
           Title = 
           NbinsX= 50, xmin= -4, xmax=4
 
@@ -167,9 +167,9 @@ TH1.Print Name  = hJetQA_1wJetID_jtphi, Entries= 26426383, Total sum= 0.00485995
 
  opening input Data w/ cuthJetQA_1wJetID_jtphi
 
-TH1.Print Name  = hJetQA_1wJetID_jtphi, Entries= 47393115, Total sum= 6.8258
+TH1.Print Name  = hJetQA_1wJetID_jtphi, Entries= 47393115, Total sum= 1.08956e+08
           Title = 
-          NbinsX= 25, xmin= -4, xmax=4
+          NbinsX= 50, xmin= -4, xmax=4
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -179,7 +179,7 @@ Printing Jet-ID Cut Histos
  var =jty
  opening input Data hJetQA_0wJetID_jty
 
-TH1.Print Name  = hJetQA_1wJetID_jty, Entries= 47393115, Total sum= 1.08956e+08
+TH1.Print Name  = hJetQA_0wJetID_jty, Entries= 47902995, Total sum= 1.0977e+08
           Title = 
           NbinsX= 50, xmin= -5, xmax=5
 
@@ -191,9 +191,9 @@ TH1.Print Name  = hJetQA_1wJetID_jty, Entries= 26426383, Total sum= 0.00485995
 
  opening input Data w/ cuthJetQA_1wJetID_jty
 
-TH1.Print Name  = hJetQA_1wJetID_jty, Entries= 47393115, Total sum= 5.46064
+TH1.Print Name  = hJetQA_1wJetID_jty, Entries= 47393115, Total sum= 1.08956e+08
           Title = 
-          NbinsX= 25, xmin= -5, xmax=5
+          NbinsX= 50, xmin= -5, xmax=5
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -203,7 +203,7 @@ Printing Jet-ID Cut Histos
  var =trkMax
  opening input Data hJetQA_0wJetID_trkMax
 
-TH1.Print Name  = hJetQA_1wJetID_trkMax, Entries= 47393115, Total sum= 1.08803e+08
+TH1.Print Name  = hJetQA_0wJetID_trkMax, Entries= 47902995, Total sum= 1.09616e+08
           Title = 
           NbinsX= 40, xmin= 0, xmax=2
 
@@ -215,9 +215,9 @@ TH1.Print Name  = hJetQA_1wJetID_trkMax, Entries= 26426383, Total sum= 0.0048519
 
  opening input Data w/ cuthJetQA_1wJetID_trkMax
 
-TH1.Print Name  = hJetQA_1wJetID_trkMax, Entries= 47393115, Total sum= 21.8119
+TH1.Print Name  = hJetQA_1wJetID_trkMax, Entries= 47393115, Total sum= 1.08803e+08
           Title = 
-          NbinsX= 8, xmin= 0, xmax=2
+          NbinsX= 40, xmin= 0, xmax=2
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -227,7 +227,7 @@ Printing Jet-ID Cut Histos
  var =trkSum
  opening input Data hJetQA_0wJetID_trkSum
 
-TH1.Print Name  = hJetQA_1wJetID_trkSum, Entries= 47393115, Total sum= 1.08721e+08
+TH1.Print Name  = hJetQA_0wJetID_trkSum, Entries= 47902995, Total sum= 1.09534e+08
           Title = 
           NbinsX= 40, xmin= 0, xmax=2
 
@@ -239,9 +239,9 @@ TH1.Print Name  = hJetQA_1wJetID_trkSum, Entries= 26426383, Total sum= 0.0048479
 
  opening input Data w/ cuthJetQA_1wJetID_trkSum
 
-TH1.Print Name  = hJetQA_1wJetID_trkSum, Entries= 47393115, Total sum= 21.7954
+TH1.Print Name  = hJetQA_1wJetID_trkSum, Entries= 47393115, Total sum= 1.08721e+08
           Title = 
-          NbinsX= 8, xmin= 0, xmax=2
+          NbinsX= 40, xmin= 0, xmax=2
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -251,7 +251,7 @@ Printing Jet-ID Cut Histos
  var =trkHardSum
  opening input Data hJetQA_0wJetID_trkHardSum
 
-TH1.Print Name  = hJetQA_1wJetID_trkHardSum, Entries= 47393115, Total sum= 1.08748e+08
+TH1.Print Name  = hJetQA_0wJetID_trkHardSum, Entries= 47902995, Total sum= 1.09561e+08
           Title = 
           NbinsX= 40, xmin= 0, xmax=2
 
@@ -263,9 +263,9 @@ TH1.Print Name  = hJetQA_1wJetID_trkHardSum, Entries= 26426383, Total sum= 0.004
 
  opening input Data w/ cuthJetQA_1wJetID_trkHardSum
 
-TH1.Print Name  = hJetQA_1wJetID_trkHardSum, Entries= 47393115, Total sum= 21.8008
+TH1.Print Name  = hJetQA_1wJetID_trkHardSum, Entries= 47393115, Total sum= 1.08748e+08
           Title = 
-          NbinsX= 8, xmin= 0, xmax=2
+          NbinsX= 40, xmin= 0, xmax=2
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -275,7 +275,7 @@ Printing Jet-ID Cut Histos
  var =chMax
  opening input Data hJetQA_0wJetID_chMax
 
-TH1.Print Name  = hJetQA_1wJetID_chMax, Entries= 47393115, Total sum= 1.08956e+08
+TH1.Print Name  = hJetQA_0wJetID_chMax, Entries= 47902995, Total sum= 1.0977e+08
           Title = 
           NbinsX= 40, xmin= 0, xmax=2
 
@@ -287,9 +287,9 @@ TH1.Print Name  = hJetQA_1wJetID_chMax, Entries= 26426383, Total sum= 0.00485995
 
  opening input Data w/ cuthJetQA_1wJetID_chMax
 
-TH1.Print Name  = hJetQA_1wJetID_chMax, Entries= 47393115, Total sum= 21.8426
+TH1.Print Name  = hJetQA_1wJetID_chMax, Entries= 47393115, Total sum= 1.08956e+08
           Title = 
-          NbinsX= 8, xmin= 0, xmax=2
+          NbinsX= 40, xmin= 0, xmax=2
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -299,7 +299,7 @@ Printing Jet-ID Cut Histos
  var =chSum
  opening input Data hJetQA_0wJetID_chSum
 
-TH1.Print Name  = hJetQA_1wJetID_chSum, Entries= 47393115, Total sum= 1.08956e+08
+TH1.Print Name  = hJetQA_0wJetID_chSum, Entries= 47902995, Total sum= 1.0977e+08
           Title = 
           NbinsX= 40, xmin= 0, xmax=2
 
@@ -311,9 +311,9 @@ TH1.Print Name  = hJetQA_1wJetID_chSum, Entries= 26426383, Total sum= 0.00485995
 
  opening input Data w/ cuthJetQA_1wJetID_chSum
 
-TH1.Print Name  = hJetQA_1wJetID_chSum, Entries= 47393115, Total sum= 21.8426
+TH1.Print Name  = hJetQA_1wJetID_chSum, Entries= 47393115, Total sum= 1.08956e+08
           Title = 
-          NbinsX= 8, xmin= 0, xmax=2
+          NbinsX= 40, xmin= 0, xmax=2
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -323,7 +323,7 @@ Printing Jet-ID Cut Histos
  var =chHardSum
  opening input Data hJetQA_0wJetID_chHardSum
 
-TH1.Print Name  = hJetQA_1wJetID_chHardSum, Entries= 47393115, Total sum= 1.08956e+08
+TH1.Print Name  = hJetQA_0wJetID_chHardSum, Entries= 47902995, Total sum= 1.0977e+08
           Title = 
           NbinsX= 40, xmin= 0, xmax=2
 
@@ -335,9 +335,9 @@ TH1.Print Name  = hJetQA_1wJetID_chHardSum, Entries= 26426383, Total sum= 0.0048
 
  opening input Data w/ cuthJetQA_1wJetID_chHardSum
 
-TH1.Print Name  = hJetQA_1wJetID_chHardSum, Entries= 47393115, Total sum= 21.8426
+TH1.Print Name  = hJetQA_1wJetID_chHardSum, Entries= 47393115, Total sum= 1.08956e+08
           Title = 
-          NbinsX= 8, xmin= 0, xmax=2
+          NbinsX= 40, xmin= 0, xmax=2
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -347,7 +347,7 @@ Printing Jet-ID Cut Histos
  var =phMax
  opening input Data hJetQA_0wJetID_phMax
 
-TH1.Print Name  = hJetQA_1wJetID_phMax, Entries= 47393115, Total sum= 1.08956e+08
+TH1.Print Name  = hJetQA_0wJetID_phMax, Entries= 47902995, Total sum= 1.0977e+08
           Title = 
           NbinsX= 40, xmin= 0, xmax=2
 
@@ -359,9 +359,9 @@ TH1.Print Name  = hJetQA_1wJetID_phMax, Entries= 26426383, Total sum= 0.00485995
 
  opening input Data w/ cuthJetQA_1wJetID_phMax
 
-TH1.Print Name  = hJetQA_1wJetID_phMax, Entries= 47393115, Total sum= 21.8426
+TH1.Print Name  = hJetQA_1wJetID_phMax, Entries= 47393115, Total sum= 1.08956e+08
           Title = 
-          NbinsX= 8, xmin= 0, xmax=2
+          NbinsX= 40, xmin= 0, xmax=2
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -371,7 +371,7 @@ Printing Jet-ID Cut Histos
  var =phSum
  opening input Data hJetQA_0wJetID_phSum
 
-TH1.Print Name  = hJetQA_1wJetID_phSum, Entries= 47393115, Total sum= 1.08956e+08
+TH1.Print Name  = hJetQA_0wJetID_phSum, Entries= 47902995, Total sum= 1.0977e+08
           Title = 
           NbinsX= 40, xmin= 0, xmax=2
 
@@ -383,9 +383,9 @@ TH1.Print Name  = hJetQA_1wJetID_phSum, Entries= 26426383, Total sum= 0.00485995
 
  opening input Data w/ cuthJetQA_1wJetID_phSum
 
-TH1.Print Name  = hJetQA_1wJetID_phSum, Entries= 47393115, Total sum= 21.8426
+TH1.Print Name  = hJetQA_1wJetID_phSum, Entries= 47393115, Total sum= 1.08956e+08
           Title = 
-          NbinsX= 8, xmin= 0, xmax=2
+          NbinsX= 40, xmin= 0, xmax=2
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -395,7 +395,7 @@ Printing Jet-ID Cut Histos
  var =phHardSum
  opening input Data hJetQA_0wJetID_phHardSum
 
-TH1.Print Name  = hJetQA_1wJetID_phHardSum, Entries= 47393115, Total sum= 1.08956e+08
+TH1.Print Name  = hJetQA_0wJetID_phHardSum, Entries= 47902995, Total sum= 1.0977e+08
           Title = 
           NbinsX= 40, xmin= 0, xmax=2
 
@@ -407,9 +407,9 @@ TH1.Print Name  = hJetQA_1wJetID_phHardSum, Entries= 26426383, Total sum= 0.0048
 
  opening input Data w/ cuthJetQA_1wJetID_phHardSum
 
-TH1.Print Name  = hJetQA_1wJetID_phHardSum, Entries= 47393115, Total sum= 21.8426
+TH1.Print Name  = hJetQA_1wJetID_phHardSum, Entries= 47393115, Total sum= 1.08956e+08
           Title = 
-          NbinsX= 8, xmin= 0, xmax=2
+          NbinsX= 40, xmin= 0, xmax=2
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -419,7 +419,7 @@ Printing Jet-ID Cut Histos
  var =neMax
  opening input Data hJetQA_0wJetID_neMax
 
-TH1.Print Name  = hJetQA_1wJetID_neMax, Entries= 47393115, Total sum= 1.08956e+08
+TH1.Print Name  = hJetQA_0wJetID_neMax, Entries= 47902995, Total sum= 1.0977e+08
           Title = 
           NbinsX= 40, xmin= 0, xmax=2
 
@@ -431,9 +431,9 @@ TH1.Print Name  = hJetQA_1wJetID_neMax, Entries= 26426383, Total sum= 0.00485994
 
  opening input Data w/ cuthJetQA_1wJetID_neMax
 
-TH1.Print Name  = hJetQA_1wJetID_neMax, Entries= 47393115, Total sum= 21.8426
+TH1.Print Name  = hJetQA_1wJetID_neMax, Entries= 47393115, Total sum= 1.08956e+08
           Title = 
-          NbinsX= 8, xmin= 0, xmax=2
+          NbinsX= 40, xmin= 0, xmax=2
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -443,7 +443,7 @@ Printing Jet-ID Cut Histos
  var =neSum
  opening input Data hJetQA_0wJetID_neSum
 
-TH1.Print Name  = hJetQA_1wJetID_neSum, Entries= 47393115, Total sum= 1.08956e+08
+TH1.Print Name  = hJetQA_0wJetID_neSum, Entries= 47902995, Total sum= 1.0977e+08
           Title = 
           NbinsX= 40, xmin= 0, xmax=2
 
@@ -455,9 +455,9 @@ TH1.Print Name  = hJetQA_1wJetID_neSum, Entries= 26426383, Total sum= 0.00485994
 
  opening input Data w/ cuthJetQA_1wJetID_neSum
 
-TH1.Print Name  = hJetQA_1wJetID_neSum, Entries= 47393115, Total sum= 21.8426
+TH1.Print Name  = hJetQA_1wJetID_neSum, Entries= 47393115, Total sum= 1.08956e+08
           Title = 
-          NbinsX= 8, xmin= 0, xmax=2
+          NbinsX= 40, xmin= 0, xmax=2
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -467,7 +467,7 @@ Printing Jet-ID Cut Histos
  var =eMax
  opening input Data hJetQA_0wJetID_eMax
 
-TH1.Print Name  = hJetQA_1wJetID_eMax, Entries= 47393115, Total sum= 1.08956e+08
+TH1.Print Name  = hJetQA_0wJetID_eMax, Entries= 47902995, Total sum= 1.0977e+08
           Title = 
           NbinsX= 40, xmin= 0, xmax=2
 
@@ -479,9 +479,9 @@ TH1.Print Name  = hJetQA_1wJetID_eMax, Entries= 26426383, Total sum= 0.00485992
 
  opening input Data w/ cuthJetQA_1wJetID_eMax
 
-TH1.Print Name  = hJetQA_1wJetID_eMax, Entries= 47393115, Total sum= 21.8426
+TH1.Print Name  = hJetQA_1wJetID_eMax, Entries= 47393115, Total sum= 1.08956e+08
           Title = 
-          NbinsX= 8, xmin= 0, xmax=2
+          NbinsX= 40, xmin= 0, xmax=2
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -491,7 +491,7 @@ Printing Jet-ID Cut Histos
  var =eSum
  opening input Data hJetQA_0wJetID_eSum
 
-TH1.Print Name  = hJetQA_1wJetID_eSum, Entries= 47393115, Total sum= 1.08956e+08
+TH1.Print Name  = hJetQA_0wJetID_eSum, Entries= 47902995, Total sum= 1.0977e+08
           Title = 
           NbinsX= 40, xmin= 0, xmax=2
 
@@ -503,9 +503,9 @@ TH1.Print Name  = hJetQA_1wJetID_eSum, Entries= 26426383, Total sum= 0.00485992
 
  opening input Data w/ cuthJetQA_1wJetID_eSum
 
-TH1.Print Name  = hJetQA_1wJetID_eSum, Entries= 47393115, Total sum= 21.8426
+TH1.Print Name  = hJetQA_1wJetID_eSum, Entries= 47393115, Total sum= 1.08956e+08
           Title = 
-          NbinsX= 8, xmin= 0, xmax=2
+          NbinsX= 40, xmin= 0, xmax=2
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -515,7 +515,7 @@ Printing Jet-ID Cut Histos
  var =muMax
  opening input Data hJetQA_0wJetID_muMax
 
-TH1.Print Name  = hJetQA_1wJetID_muMax, Entries= 47393115, Total sum= 1.08956e+08
+TH1.Print Name  = hJetQA_0wJetID_muMax, Entries= 47902995, Total sum= 1.0977e+08
           Title = 
           NbinsX= 40, xmin= 0, xmax=2
 
@@ -527,9 +527,9 @@ TH1.Print Name  = hJetQA_1wJetID_muMax, Entries= 26426383, Total sum= 0.0048599
 
  opening input Data w/ cuthJetQA_1wJetID_muMax
 
-TH1.Print Name  = hJetQA_1wJetID_muMax, Entries= 47393115, Total sum= 21.8426
+TH1.Print Name  = hJetQA_1wJetID_muMax, Entries= 47393115, Total sum= 1.08956e+08
           Title = 
-          NbinsX= 8, xmin= 0, xmax=2
+          NbinsX= 40, xmin= 0, xmax=2
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -539,7 +539,7 @@ Printing Jet-ID Cut Histos
  var =muSum
  opening input Data hJetQA_0wJetID_muSum
 
-TH1.Print Name  = hJetQA_1wJetID_muSum, Entries= 47393115, Total sum= 1.08956e+08
+TH1.Print Name  = hJetQA_0wJetID_muSum, Entries= 47902995, Total sum= 1.0977e+08
           Title = 
           NbinsX= 40, xmin= 0, xmax=2
 
@@ -551,9 +551,9 @@ TH1.Print Name  = hJetQA_1wJetID_muSum, Entries= 26426383, Total sum= 0.0048599
 
  opening input Data w/ cuthJetQA_1wJetID_muSum
 
-TH1.Print Name  = hJetQA_1wJetID_muSum, Entries= 47393115, Total sum= 21.8426
+TH1.Print Name  = hJetQA_1wJetID_muSum, Entries= 47393115, Total sum= 1.08956e+08
           Title = 
-          NbinsX= 8, xmin= 0, xmax=2
+          NbinsX= 40, xmin= 0, xmax=2
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -563,7 +563,7 @@ Printing Jet-ID Cut Histos
  var =Aj
  opening input Data hJetQA_0wJetID_Aj
 
-TH1.Print Name  = hJetQA_1wJetID_Aj, Entries= 31538980, Total sum= 1.8661e+08
+TH1.Print Name  = hJetQA_0wJetID_Aj, Entries= 32291753, Total sum= 1.92858e+08
           Title = 
           NbinsX= 100, xmin= 0, xmax=2
 
@@ -575,9 +575,9 @@ TH1.Print Name  = hJetQA_1wJetID_Aj, Entries= 10344259, Total sum= 0.0102067
 
  opening input Data w/ cuthJetQA_1wJetID_Aj
 
-TH1.Print Name  = hJetQA_1wJetID_Aj, Entries= 31538980, Total sum= 93.5249
+TH1.Print Name  = hJetQA_1wJetID_Aj, Entries= 31538980, Total sum= 1.8661e+08
           Title = 
-          NbinsX= 50, xmin= 0, xmax=2
+          NbinsX= 100, xmin= 0, xmax=2
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -587,7 +587,7 @@ Printing Jet-ID Cut Histos
  var =xj
  opening input Data hJetQA_0wJetID_xj
 
-TH1.Print Name  = hJetQA_1wJetID_xj, Entries= 31538980, Total sum= 1.8661e+08
+TH1.Print Name  = hJetQA_0wJetID_xj, Entries= 32291753, Total sum= 1.92858e+08
           Title = 
           NbinsX= 100, xmin= 0, xmax=2
 
@@ -599,9 +599,9 @@ TH1.Print Name  = hJetQA_1wJetID_xj, Entries= 10344259, Total sum= 0.0102067
 
  opening input Data w/ cuthJetQA_1wJetID_xj
 
-TH1.Print Name  = hJetQA_1wJetID_xj, Entries= 31538980, Total sum= 93.5249
+TH1.Print Name  = hJetQA_1wJetID_xj, Entries= 31538980, Total sum= 1.8661e+08
           Title = 
-          NbinsX= 50, xmin= 0, xmax=2
+          NbinsX= 100, xmin= 0, xmax=2
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -611,7 +611,7 @@ Printing Jet-ID Cut Histos
  var =dphi
  opening input Data hJetQA_0wJetID_dphi
 
-TH1.Print Name  = hJetQA_1wJetID_dphi, Entries= 31538980, Total sum= 1.8661e+08
+TH1.Print Name  = hJetQA_0wJetID_dphi, Entries= 32291753, Total sum= 1.92858e+08
           Title = 
           NbinsX= 50, xmin= 0, xmax=4
 
@@ -623,7 +623,7 @@ TH1.Print Name  = hJetQA_1wJetID_dphi, Entries= 10344259, Total sum= 0.0102067
 
  opening input Data w/ cuthJetQA_1wJetID_dphi
 
-TH1.Print Name  = hJetQA_1wJetID_dphi, Entries= 31538980, Total sum= 23.3812
+TH1.Print Name  = hJetQA_1wJetID_dphi, Entries= 31538980, Total sum= 1.8661e+08
           Title = 
           NbinsX= 50, xmin= 0, xmax=4
 
@@ -635,7 +635,7 @@ Printing Jet-ID Cut Histos
  var =leadJetPt
  opening input Data hJetQA_0wJetID_leadJetPt
 
-TH1.Print Name  = hJetQA_1wJetID_leadJetPt, Entries= 31538980, Total sum= 1.8661e+08
+TH1.Print Name  = hJetQA_0wJetID_leadJetPt, Entries= 32291753, Total sum= 1.92858e+08
           Title = 
           NbinsX= 100, xmin= 0, xmax=500
 
@@ -647,9 +647,9 @@ TH1.Print Name  = hJetQA_1wJetID_leadJetPt, Entries= 10344259, Total sum= 0.0102
 
  opening input Data w/ cuthJetQA_1wJetID_leadJetPt
 
-TH1.Print Name  = hJetQA_1wJetID_leadJetPt, Entries= 31538980, Total sum= 0.374098
+TH1.Print Name  = hJetQA_1wJetID_leadJetPt, Entries= 31538980, Total sum= 1.8661e+08
           Title = 
-          NbinsX= 20, xmin= 0, xmax=500
+          NbinsX= 100, xmin= 0, xmax=500
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -659,7 +659,7 @@ Printing Jet-ID Cut Histos
  var =subleadJetPt
  opening input Data hJetQA_0wJetID_subleadJetPt
 
-TH1.Print Name  = hJetQA_1wJetID_subleadJetPt, Entries= 31538980, Total sum= 1.8661e+08
+TH1.Print Name  = hJetQA_0wJetID_subleadJetPt, Entries= 32291753, Total sum= 1.92858e+08
           Title = 
           NbinsX= 100, xmin= 0, xmax=500
 
@@ -671,9 +671,9 @@ TH1.Print Name  = hJetQA_1wJetID_subleadJetPt, Entries= 10344259, Total sum= 0.0
 
  opening input Data w/ cuthJetQA_1wJetID_subleadJetPt
 
-TH1.Print Name  = hJetQA_1wJetID_subleadJetPt, Entries= 31538980, Total sum= 0.374099
+TH1.Print Name  = hJetQA_1wJetID_subleadJetPt, Entries= 31538980, Total sum= 1.8661e+08
           Title = 
-          NbinsX= 20, xmin= 0, xmax=500
+          NbinsX= 100, xmin= 0, xmax=500
 
 Dividing Jet-ID Cut Histos
 Printing Jet-ID Cut Histos
@@ -692,6 +692,8 @@ drawing dataTrig QA Overlay Plots
 
 skipping MC Eff. QA plots...
 
+
+closing the PDF file
 
 closing the PDF file
 
